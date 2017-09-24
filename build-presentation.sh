@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker build -t ccwfs-2017 .
+set -x
+docker build -t ghyde/ccwfs-2017 .
