@@ -1,4 +1,4 @@
 #!/bin/bash
 
 set -x
-docker build -t ghyde/firefox -f Dockerfile_firefox .
+docker build -t firefox -f Dockerfile_firefox .
